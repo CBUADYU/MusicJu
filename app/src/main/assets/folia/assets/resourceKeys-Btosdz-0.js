@@ -1,0 +1,1 @@
+import{r as e,t}from"./appPlaybackGuards-CLTswJJM.js";var n=(n,r)=>{let i=e(r);return`${n===`cover`&&i.kind===`online`&&i.providerId===`kugou`?`cover_v2`:n}_${t(r)}`},r=(t,n)=>{let r=e(n);return r.kind!==`online`||r.providerId!==`netease`?[]:[...r.variant===`cloud`?[`${t}_cloud_${r.mediaId}`]:[],`${t}_${r.mediaId}`]};export{n,r as t};

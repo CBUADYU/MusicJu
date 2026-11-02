@@ -1,0 +1,51 @@
+# 构建产物
+.gradle/
+build/
+app/build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 签名文件 — 绝不提交
+*.jks
+*.keystore
+
+# 本地环境
+local.properties
+mise.toml
+gradle.properties.local
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Gradle wrapper jar（但保留 properties）
+gradle/wrapper/gradle-wrapper.jar
+
+# APK / AAB / DEX / JAR
+*.apk
+*.aab
+*.ap_
+*.dex
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# 日志 / 备份
+*.log
+*.bak
+*.bak.*
+*.tmp
+
+# 内部脚本 / 会话状态
+scripts/
+VERSION_LOG.md
+
+# 专有二进制（ArkUI-X so / jniLibs）
+app/src/main/libs/
+app/src/main/jniLibs/
+
+# 内部 update-server（含 cbuad token）
+app/update-server/

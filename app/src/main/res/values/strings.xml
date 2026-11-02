@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CBDEV音乐</string>
+    <string name="tab_playlists">歌单</string>
+    <string name="tab_import">导入</string>
+    <string name="tab_player">播放器</string>
+    <string name="import_hint">请粘贴歌单分享链接</string>
+    <string name="import_btn">解析歌单</string>
+    <string name="import_success">歌单导入成功</string>
+    <string name="import_failed">解析失败，请检查链接</string>
+    <string name="empty_playlist">暂无歌单，快去导入吧</string>
+    <string name="delete_confirm">确认删除此歌单？</string>
+    <string name="platform_netease">网易云音乐</string>
+    <string name="platform_qq">QQ音乐</string>
+    <string name="platform_kugou">酷狗音乐</string>
+    <string name="platform_kuwo">酷我音乐</string>
+    <string name="platform_migu">咪咕音乐</string>
+    <string name="platform_qishui">汽水音乐</string>
+    <string name="platform_unknown">未知平台</string>
+    <string name="song_count">%d首</string>
+    <string name="music_playback_channel_name">音乐播放</string>
+    <string name="music_playback_channel_desc">显示正在播放的音乐及控制</string>
+</resources>

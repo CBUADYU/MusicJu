@@ -1,0 +1,1 @@
+import{t as e}from"./lucide-react-CxN1GexX.js";var t=e=>typeof e==`object`&&!!e&&`$$typeof`in e&&`render`in e,n=n=>{let r=typeof n==`string`?n.trim():``;if(!r)return null;let i=e[r];return t(i)?i:null};export{n as t};

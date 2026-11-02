@@ -1,0 +1,1 @@
+import{t as e}from"./react-BMz3dHRA.js";var t=Object.freeze({}),n=e(e=>({byMode:{},setModulation:(t,n)=>e(e=>({byMode:{...e.byMode,[t]:{...e.byMode[t]??{},...n}}})),resetModulation:t=>e(e=>{if(!t)return{byMode:{}};let n={...e.byMode};return delete n[t],{byMode:n}})})),r=e=>n(n=>n.byMode[e]??t),i=(e,t)=>n.getState().setModulation(e,t);export{r as n,n as r,i as t};

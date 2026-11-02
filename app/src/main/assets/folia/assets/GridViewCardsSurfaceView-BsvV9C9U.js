@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-NZYk81nU.js";import{t}from"./GridViewSettingsSection-CPNItKut.js";var n=e();function r(e){return(0,n.jsx)(`div`,{className:`flex h-full justify-center overflow-y-auto px-4 py-8`,children:(0,n.jsx)(`div`,{className:`w-full max-w-lg self-start`,children:(0,n.jsx)(t,{...e})})})}export{r as default};

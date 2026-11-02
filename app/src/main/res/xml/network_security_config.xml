@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 默认仅允许 HTTPS -->
+    <base-config cleartextTrafficPermitted="false" />
+
+    <!-- 网易云 CDN 必须放开：旧版 API 返回的 picUrl 全是 http://p[1-4].music.126.net/xxx -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">music.126.net</domain>
+    </domain-config>
+</network-security-config>

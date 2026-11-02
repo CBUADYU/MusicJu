@@ -1,0 +1,1 @@
+var e=(e,t)=>e.textSource===`runtime`?e.title:t(`commandPalette.commands.${e.id}.title`,{defaultValue:e.title}),t=(e,t)=>e.textSource===`runtime`?e.description:t(`commandPalette.commands.${e.id}.description`,{defaultValue:e.description});export{e as n,t};

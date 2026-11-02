@@ -1,0 +1,1 @@
+var e=(e,t)=>e?.find(e=>e.role===t&&e.text.trim())?.text.trim()??null,t=(t,n)=>!t||n===`none`?null:(n===`translation`?t.translation:t.romanization)?.trim()||e(t.alternateTexts,n),n=(e,t=!0)=>e??(t?`translation`:`none`);export{n,t};
